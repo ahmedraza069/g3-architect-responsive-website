@@ -104,6 +104,38 @@ nav ul li a{
 .second{
     color: #FF900E;
 }
+
+/* Main Featurs part start */
+.main_features{
+    display: flex;
+    gap: 70px;
+}
+.features_title{
+    padding: 20px;
+    font-size: 2.5em;
+    border-left: 4px solid orangered;
+    margin: 20px 0px;
+}
+.main_features_img img{
+    width: 100%;
+}
+.main_features_content > p{
+    margin: 20px 0px;
+}
+.card{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px 0px;
+}
+.card p{
+    margin: 10px 0px;
+}
+
+
+/* Main Featurs part end */
+
+/* fact part start */
 .facts_title{
     font-size: 2.4rem;
     margin: 10px 0px;
@@ -210,6 +242,10 @@ nav ul li a{
     .sponsor_content{
      flex-direction: column;
     }
+    .main_features{
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media screen  and (min-width: 576px) and (max-width: 992px) {
@@ -256,7 +292,10 @@ nav ul li a{
     .sponsor_content img:last-child{
         align-self: center;
     }
-
+    .main_features{
+        flex-direction: column;
+        width: 100%;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     header{
