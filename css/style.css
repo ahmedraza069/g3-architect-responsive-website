@@ -139,6 +139,9 @@ nav ul li a{
     .features{
         flex-direction: column-reverse;
     }
+    .features_image{
+        grid-template-columns: 1fr;
+    }
 }
 @media screen  and (min-width: 576px) and (max-width: 992px) {
     header{
